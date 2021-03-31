@@ -14,7 +14,7 @@ if(name in allowedUser):
 
     if(password == allowedPassword[userId]):
         print("Hello %s you are welcome to the Teller Machine today:" %name, now.strftime("%y-%m-%d %H:%M"))
-        time.sleep(3)
+        time.sleep(5)
         print("Please select your preferred transaction below:")
         time.sleep(3)
         print('1. Withdrawal')
