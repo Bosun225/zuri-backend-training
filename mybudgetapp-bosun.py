@@ -29,23 +29,8 @@ class budget:
             print("You have entered an invalid amount")
 
     def transfer(self):
-        
-        
+        print('How much do you want to transfer')
+        amt_transfer = input('n\ >>>')
+        print(f'You have transfered {amt_transfer}')
 
-        
-
-
-
-
-
-
-
-    
-# print("This is a class of a car")
-
-# # Car()
-# # print(type(Car))
-
-# car_1 = Car()
-# print(type(car_1))
 
